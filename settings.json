@@ -2,7 +2,7 @@
     "workbench.colorTheme": "GoLang Oceanic Theme",
     "editor.inlineSuggest.enabled": true,
     "workbench.iconTheme": "file-icons",
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "files.exclude": {
         "**/.trunk/*actions/": true,
         "**/.trunk/*logs/": true,
@@ -51,13 +51,13 @@
     // "editor.fontFamily": "Proggy Fonts",
     // "editor.fontFamily": "DejaVu Sans Mono",
     // "editor.fontFamily": "Source Code Pro", //Good font so far
-    "editor.fontFamily": "Dina",
+    // "editor.fontFamily": "Dina",
     // "editor.fontFamily": "Hack",
     // "editor.fontFamily": "Cascadia Code",
     // "editor.fontFamily": "JetBrains Mono", //Good font so far
     // "editor.fontFamily": "PragmataPro", 
     // "editor.fontFamily": "Dank Mono",
-    // "editor.fontFamily": "Jetbrains Mono", //Good font so far
+    "editor.fontFamily": "Jetbrains Mono", //Good font so far
     // "editor.fontFamily": "Monaspace Xenon Var",
     // "editor.fontFamily": "Monaspace Neon Var",
     // "editor.fontFamily": "Iosevka Nerd Font Propo,Iosevka NFP ExtraLight Obl",
@@ -66,5 +66,7 @@
     //SB: Enabled the Font Ligatures and added the below: https://monaspace.githubnext.com/#learn-more
     "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
     // "editor.fontLigatures": false,
-    "go.inlayHints.assignVariableTypes": true
+    "go.inlayHints.assignVariableTypes": true,
+    "editor.fontWeight": "640",
+    "editor.fontVariations": true
 }
