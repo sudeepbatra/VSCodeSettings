@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "BBEdit Light",
+    "workbench.colorTheme": "GoLang Oceanic Theme",
     "editor.inlineSuggest.enabled": true,
     "workbench.iconTheme": "file-icons",
     "editor.fontSize": 15,
@@ -20,6 +20,10 @@
     },
     "editor.defaultFormatter": "trunk.io",
     "go.toolsManagement.autoUpdate": true,
+    "gopls": {
+        "ui.semanticTokens": true,
+        "formatting.gofumpt": true
+    },
     "tabnine.experimentalAutoImports": true,
     "git.autofetch": true,
     "[go]": {
@@ -38,5 +42,20 @@
     "cody.experimental.chatPredictions": true,
     "git.suggestSmartCommit": false,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "editor.semanticTokenColorCustomizations": {
+
+    },
+    // "editor.fontFamily": "Fira Code",
+    // "editor.fontFamily": "Proggy Fonts",
+    // "editor.fontFamily": "DejaVu Sans Mono",
+    // "editor.fontFamily": "Source Code Pro", //Good font so far
+    // "editor.fontFamily": "Dina",
+    // "editor.fontFamily": "Hack",
+    // "editor.fontFamily": "Cascadia Code",
+    // "editor.fontFamily": "JetBrains Mono", //Good font so far
+    "editor.fontFamily": "PragmataPro", 
+    "editor.fontFamily": "PragmataPro",
+    "editor.fontLigatures": false,
+    "go.inlayHints.assignVariableTypes": true
 }
