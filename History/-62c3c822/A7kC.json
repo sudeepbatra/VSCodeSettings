@@ -50,8 +50,8 @@
     // "editor.fontFamily": "Fira Code",
     // "editor.fontFamily": "Proggy Fonts",
     // "editor.fontFamily": "DejaVu Sans Mono",
-    // "editor.fontFamily": "Source Code Pro", //Good font so far
-    "editor.fontFamily": "Dina",
+    "editor.fontFamily": "Source Code Pro", //Good font so far
+    // "editor.fontFamily": "Dina",
     // "editor.fontFamily": "Hack",
     // "editor.fontFamily": "Cascadia Code",
     // "editor.fontFamily": "JetBrains Mono", //Good font so far
