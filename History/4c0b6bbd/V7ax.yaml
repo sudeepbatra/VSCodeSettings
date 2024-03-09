@@ -1,0 +1,21 @@
+version: 0.1
+cli:
+  version: 1.13.0
+plugins:
+  sources:
+    - id: trunk
+      ref: v1.0.0
+      uri: https://github.com/trunk-io/plugins
+lint:
+  enabled:
+    - git-diff-check
+    - gofmt@1.20.4
+    - gokart@0.5.1
+    - golangci-lint@1.53.3
+    - osv-scanner@1.3.6
+    - trivy@0.43.1
+    - trufflehog@3.46.1
+runtimes:
+  enabled:
+    - go@1.19.5
+    - python@3.10.8

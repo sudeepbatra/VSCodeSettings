@@ -1,0 +1,5 @@
+package smartapi
+
+func smartApiSessionToken() {
+
+}

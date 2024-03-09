@@ -1,0 +1,51 @@
+{
+    "workbench.colorTheme": "BBEdit Light",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "file-icons",
+    "editor.fontSize": 15,
+    "files.exclude": {
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "files.watcherExclude": {
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "editor.defaultFormatter": "trunk.io",
+    "go.toolsManagement.autoUpdate": true,
+    "gopls": { 
+        "ui.semanticTokens": true,
+        "formatting.gofumpt": true
+    },
+    "tabnine.experimentalAutoImports": true,
+    "git.autofetch": true,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "python.createEnvironment.contentButton": "show",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "boot-java.rewrite.reconcile": true,
+    "aws.suppressPrompts": {
+        "codeWhispererNewWelcomeMessage": true,
+        "codeWhispererConnectionExpired": true
+    },
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "cody.experimental.chatPredictions": true,
+    "git.suggestSmartCommit": false,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 1,
+    "editor.semanticTokenColorCustomizations": {
+
+    },
+    "editor.fontLigatures": false,
+    "go.inlayHints.assignVariableTypes": true
+}

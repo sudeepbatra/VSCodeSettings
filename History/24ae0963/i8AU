@@ -1,0 +1,5 @@
+.vscode
+*.log
+*.pipe
+state.json
+__debug_bin

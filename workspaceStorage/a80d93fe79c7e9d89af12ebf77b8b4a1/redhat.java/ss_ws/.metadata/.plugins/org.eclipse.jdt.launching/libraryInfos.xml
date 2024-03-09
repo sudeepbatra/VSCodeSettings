@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="/usr/lib/jvm/java-21-openjdk" version="21"/>
+    <libraryInfo home="/usr/lib/jvm/java-17-openjdk" version="17.0.9"/>
+    <libraryInfo home="/home/sb/.vscode/extensions/redhat.java-1.26.0-linux-x64/jre/17.0.9-linux-x86_64" version="17.0.9"/>
+</libraryInfos>

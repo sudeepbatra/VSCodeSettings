@@ -1,0 +1,219 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-17 08:45:48.837'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:05.723'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_linux -data /home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:10.038'
+}
+{
+  message: 'Dec 17, 2023 8:46:17 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:17.892'
+}
+{
+  message: 'Dec 17, 2023 8:46:17 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:17.923'
+}
+{
+  message: '[Error - 8:46:44 AM] Dec 17, 2023, 8:46:44 AM Error occured while building workspace. Details: \n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 48\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuChikouSpanLongBreakoutIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 35\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 46\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 50\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 50\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 49\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuSenkouSpanAFutureIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 35\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuSenkouSpanBFutureIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 37\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 49\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 40\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 58\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakChikouFreeFutureKumoBullishLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakChikouFreeFutureKumoBullishLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakLongStrategy.java; line: 51\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakLongStrategy.java; line: 51\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithChikouFreeLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithChikouFreeLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithEMA5RisingLongStratetegy.java; line: 60\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithEMA5RisingLongStratetegy.java; line: 60\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/MACDCrossoverInLastNCandlesAndRSICrossover60LongStrategy.java; line: 41\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/MACDCrossoverInLastNCandlesAndRSICrossover60LongStrategy.java; line: 54\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 55\n' +
+    ' message: The import org.ta4j.core.indicators.supertrend cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 36\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 55\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 57\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 59\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 59\n' +
+    ' message: The import org.ta4j.core.indicators.supertrend cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 37\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 39\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 49\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 49\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 50\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 50\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource:'... 16315 more characters,
+  level: 'info',
+  timestamp: '2023-12-17 08:46:44.660'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-17 09:16:48.365'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:04.797'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_linux -data /home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:10.036'
+}
+{
+  message: 'Dec 17, 2023 9:17:16 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:16.285'
+}
+{
+  message: 'Dec 17, 2023 9:17:16 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:16.326'
+}
+{
+  message: '[Error - 9:17:50 AM] Dec 17, 2023, 9:17:50 AM Error occured while building workspace. Details: \n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 46\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 48\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuChikouSpanLongBreakoutIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 35\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 50\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 50\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 49\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuSenkouSpanAFutureIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 35\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuSenkouSpanBFutureIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 37\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 49\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 40\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 58\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakChikouFreeFutureKumoBullishLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakChikouFreeFutureKumoBullishLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakLongStrategy.java; line: 51\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakLongStrategy.java; line: 51\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithChikouFreeLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithChikouFreeLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithEMA5RisingLongStratetegy.java; line: 60\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithEMA5RisingLongStratetegy.java; line: 60\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/MACDCrossoverInLastNCandlesAndRSICrossover60LongStrategy.java; line: 41\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/MACDCrossoverInLastNCandlesAndRSICrossover60LongStrategy.java; line: 54\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 55\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 55\n' +
+    ' message: The import org.ta4j.core.indicators.supertrend cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 36\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 57\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 57\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 59\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 59\n' +
+    ' message: The import org.ta4j.core.indicators.supertrend cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 37\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 39\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 49\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 49\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 50\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16'... 16315 more characters,
+  level: 'info',
+  timestamp: '2023-12-17 09:17:50.782'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-17 20:14:35.866'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-12-17 20:14:53.409'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_linux -data /home/sb/.config/Code/User/workspaceStorage/167e15b5bf8ba85d2dab8c062b538c5a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-17 20:14:58.737'
+}
+{
+  message: 'Dec 17, 2023 8:15:07 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 20:15:07.243'
+}
+{
+  message: 'Dec 17, 2023 8:15:07 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 20:15:07.274'
+}
+{
+  message: '[Error - 8:15:34 PM] Dec 17, 2023, 8:15:34 PM Error occured while building workspace. Details: \n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuChikouSpanLongBreakoutIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 35\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 46\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuChikouBreakoutLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 50\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistImprovedExitLongStrategy.java; line: 50\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuSenkouSpanAFutureIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 35\n' +
+    ' message: The import org.ta4j.core.indicators.ichimoku.IchimokuSenkouSpanBFutureIndicator cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 37\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanAFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 48\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 49\n' +
+    ' message: IchimokuSenkouSpanBFutureIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuKumoTwistLongStrategy.java; line: 49\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 58\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 40\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/IchimokuTenkanKijunRisingLongStrategy.java; line: 58\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakChikouFreeFutureKumoBullishLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakChikouFreeFutureKumoBullishLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakLongStrategy.java; line: 51\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakLongStrategy.java; line: 51\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithChikouFreeLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithChikouFreeLongStrategy.java; line: 54\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithEMA5RisingLongStratetegy.java; line: 60\n' +
+    ' message: IchimokuChikouSpanLongBreakoutIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/KumoBreakWithEMA5RisingLongStratetegy.java; line: 60\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/MACDCrossoverInLastNCandlesAndRSICrossover60LongStrategy.java; line: 41\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/MACDCrossoverInLastNCandlesAndRSICrossover60LongStrategy.java; line: 54\n' +
+    ' message: The import org.ta4j.core.indicators.supertrend cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 36\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 55\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/SuperTrendLongStrategy.java; line: 55\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 51\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 57\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 57\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 58\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 59\n' +
+    ' message: CrossedUpInLastNCandlesIndicatorRule cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 59\n' +
+    ' message: The import org.ta4j.core.indicators.supertrend cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 37\n' +
+    ' message: The import org.ta4j.core.trading.rules.CrossedUpInLastNCandlesIndicatorRule cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 39\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 49\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/NSEData/src/main/java/com/stoxalpha/nsedata/app/strategies/longstrategy/ThreeSuperTrendLongStrategy.java; line: 49\n' +
+    ' message: SuperTrendIndicator cannot be resolved to a type; code: 16'... 16315 more characters,
+  level: 'info',
+  timestamp: '2023-12-17 20:15:34.414'
+}

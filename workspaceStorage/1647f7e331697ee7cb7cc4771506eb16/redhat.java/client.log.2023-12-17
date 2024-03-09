@@ -1,0 +1,229 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-17 08:45:48.837'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-12-17 08:45:49.001'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_linux -data /home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-17 08:45:53.202'
+}
+{
+  message: 'Dec 17, 2023 8:46:01 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Dec 17, 2023 8:46:01 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:01.842'
+}
+{
+  message: 'Dec 17, 2023 8:46:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 8\n',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:30.853'
+}
+{
+  message: 'Dec 17, 2023 8:46:30 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2023-12-17 08:46:30.953'
+}
+{
+  message: '[Error - 8:46:45 AM] Dec 17, 2023, 8:46:45 AM Error occured while building workspace. Details: \n' +
+    ' message: RSIIndicatorStartAllAlphaSignalGeneratorServices cannot be resolved; code: 570425394; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/service/StartAllAlphaSignalGeneratorServices.java; line: 105\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 39\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 47\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 39\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 41\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIOverValueShortAlphaSignalGenerator.java; line: 41\n' +
+    ' message: The method get(Object) fr'... 57923 more characters,
+  level: 'info',
+  timestamp: '2023-12-17 08:46:45.429'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-17 09:16:50.571'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-12-17 09:16:50.629'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_linux -data /home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-17 09:16:59.031'
+}
+{
+  message: 'Dec 17, 2023 9:17:11 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:11.139'
+}
+{
+  message: 'Dec 17, 2023 9:17:11 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:11.166'
+}
+{
+  message: 'Dec 17, 2023 9:17:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 20\n',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:39.758'
+}
+{
+  message: 'Dec 17, 2023 9:17:39 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2023-12-17 09:17:40.016'
+}
+{
+  message: '[Error - 9:17:53 AM] Dec 17, 2023, 9:17:53 AM Error occured while building workspace. Details: \n' +
+    ' message: RSIIndicatorStartAllAlphaSignalGeneratorServices cannot be resolved; code: 570425394; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/service/StartAllAlphaSignalGeneratorServices.java; line: 105\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 39\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 39\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 41\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIOverValueShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalSt'... 57923 more characters,
+  level: 'info',
+  timestamp: '2023-12-17 09:17:53.364'
+}
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-12-17 20:14:37.020'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-12-17 20:14:37.091'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/jre/17.0.9-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.25.1-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.600.v20231106-1826.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.25.1/config_linux -data /home/sb/.config/Code/User/workspaceStorage/1647f7e331697ee7cb7cc4771506eb16/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-12-17 20:14:39.463'
+}
+{
+  message: 'Dec 17, 2023 8:14:46 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Dec 17, 2023 8:14:47 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-12-17 20:14:49.111'
+}
+{
+  message: 'Dec 17, 2023 8:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 9\n',
+  level: 'info',
+  timestamp: '2023-12-17 20:15:15.151'
+}
+{
+  message: 'Dec 17, 2023 8:15:15 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2023-12-17 20:15:15.290'
+}
+{
+  message: '[Error - 8:15:33 PM] Dec 17, 2023, 8:15:32 PM Error occured while building workspace. Details: \n' +
+    ' message: RSIIndicatorStartAllAlphaSignalGeneratorServices cannot be resolved; code: 570425394; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/service/StartAllAlphaSignalGeneratorServices.java; line: 105\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiftySMAGoldenCrossTwoHundredSMAAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/FiveSMAGoldenCrossoverTenSMAAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDAndSignalLineCenterLineCrossoverShortAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverLongAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 32\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 36\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/MACDCrossoverShortAlphaSignalGenerator.java; line: 39\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 40\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/PunchSetupLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalStrategy cannot be resolved to a type; code: 16777218; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 41\n' +
+    ' message: The method get(Object) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 44\n' +
+    ' message: The method put(StrategyCacheKey, SkeletalStrategy) from the type SkeletalStrategyCache refers to the missing type SkeletalStrategy; code: 67108984; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIBelowValueLongAlphaSignalGenerator.java; line: 47\n' +
+    ' message: The import org.ta4j.core.SkeletalStrategy cannot be resolved; code: 268435846; resource: /home/sb/StoxAlpha/AlgoTrader/src/main/java/xyz/algotraders/algotrader/alpha/strategies/alphasignalgenerator/RSIOverValueShortAlphaSignalGenerator.java; line: 6\n' +
+    ' message: SkeletalSt'... 57923 more characters,
+  level: 'info',
+  timestamp: '2023-12-17 20:15:33.030'
+}

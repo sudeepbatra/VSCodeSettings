@@ -1,0 +1,9 @@
+FROM node:19.7.0
+
+WORKDIR /home/sb/StoxAlpha/node-course
+
+RUN npm install
+
+COPY . .
+
+CMD ["node", "app.js"]

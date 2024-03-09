@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+/home/sb/.config/Code/User/workspaceStorage/a0618840f48c80aead8f641800aa7bba/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+3842426239.index
+2933965233.index
+3042480007.index
+2289367342.index
+2073313379.index
+1778982476.index
+276748939.index
+4122974312.index
+121958593.index
+2302793055.index
+3829385194.index
+4261281555.index
+3255838148.index
+2610820723.index
+3703302233.index
+1332249305.index
+1591410252.index
+2966108259.index
+1237151293.index
+347976490.index

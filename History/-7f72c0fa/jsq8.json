@@ -1,0 +1,33 @@
+{
+    "version": "0.1",
+    "broker": {
+        "breeze":{
+            "app_name": "StoxMarket",
+            "app_key": "s76162#+U35414Y*S413=099_FA6P567",
+            "secret_key": "I04M0Y9!5vP7G3ct53e395+41F27=621"
+        },
+        "smart_api": {
+            "app_key": "iGKWS2zU",
+            "client_code": "S1632585",
+            "password": 4321
+        },
+        "smart_api_historical": {
+            "client_code": "S1632585",
+            "api_key": "fuEEm8um",
+            "secret_key": "ca2b6c65-80ef-4a86-9440-275a8c4699b1",
+            "password": 4321
+        },
+        "smart_api_trading": {
+            "client_code": "S1632585",
+            "api_key": "zlndzd6z",
+            "secret_key": "ca2b6c65-80ef-4a86-9440-275a8c4699b1",
+            "password": 4321
+        }
+    },
+    "logging":{
+        "logLevel": -1
+    },
+    "database_config": {
+        "main_tsdb_uri": "postgres://postgres:postgres@localhost:5432/alpha_hft"
+    }
+}

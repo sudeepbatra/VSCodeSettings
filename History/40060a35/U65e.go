@@ -1,0 +1,2 @@
+type RSIAboveStrategy struct {
+}

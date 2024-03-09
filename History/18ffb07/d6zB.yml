@@ -1,0 +1,74 @@
+run:
+  timeout: 7m
+linters:
+  # enable-all: true
+  disable-all: true
+  enable:
+    - asasalint
+    - asciicheck
+    - bidichk
+    - bodyclose
+    - cyclop
+    - deadcode
+    - decorder
+    - depguard
+    - dupl
+    - dupword
+    - durationcheck
+    - errcheck
+    - errchkjson
+    - errname
+    - errorlint
+    - execinquery
+    - exhaustive
+    - exhaustivestruct
+    - exportloopref
+    - forbidigo
+    - forcetypeassert
+    - funlen
+    - gci
+    - ginkgolinter
+    - gocheckcompilerdirectives
+    - gochecknoglobals
+    - goconst
+    - goerr113
+    - gofumpt
+    - goimports
+    - golint
+    - gomnd
+    - gosec
+    - gosimple
+    - govet
+    - ineffassign
+    - lll
+    - loggercheck
+    - misspell
+    - nosnakecase
+    - revive
+    - rowserrcheck
+    - staticcheck
+    - structcheck
+    - stylecheck
+    - tagliatelle
+    - typecheck
+    - unconvert
+    - unused
+    - varcheck
+    - wrapcheck
+    - wsl
+    - zerologlint
+linters-settings:
+  staticcheck:
+    checks: ["S1002","S1004","S1007","S1009","S1010","S1012","S1019","S1020","S1021","S1024","S1030","SA2*","SA3*","SA4009","SA5*","SA6000","SA6001","SA6005", "-SA2002"]
+  stylecheck:
+    checks: ["-ST1003"]
+  gosec:
+    excludes:
+      - G601
+issues:
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - errcheck
+        - gosec
+        - rowserrcheck

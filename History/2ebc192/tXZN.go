@@ -1,0 +1,26 @@
+package cmd
+
+import (
+	"os"
+
+	"github.com/spf13/cobra"
+)
+
+var rootCmd = &cobra.Command{
+	Use:   "alpha-hft",
+	Short: "A AlgoTrading Bot",
+	Long:  "My Application is a proprietary Algo Trading bot",
+	Run: func(cmd *cobra.Command, args []string) {
+		err := cmd.Help()
+		if err != nil {
+			log.Error("Error while trying to help method on command", err)
+		}
+	},
+}
+
+func Execute() {
+	if err := rootCmd.Execute(); err != nil {
+		log.Error("error while trying to run execute on rootcmd.", err)
+		os.Exit(1)
+	}
+}

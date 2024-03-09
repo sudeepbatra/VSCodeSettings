@@ -1,0 +1,165 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Login with Session Token",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["loginBreeze", "-s", "20340551"]
+        },
+        {
+            "name": "Generate Session Token",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["loginBreeze"]
+        },
+        {
+            "name": "Angel One Smart API Login",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["smartAPILogin", "-s", "975938"]
+        },
+        {
+            "name": "Angel One Smart API Market Data Websocket",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["smartAPIMarketDataWS"]
+        },
+        {
+            "name": "Five Paisa Login",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["fivePaisaLogin", "-t", "151440"]
+        },
+        {
+            "name": "Five Paisa Websocket",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["fivePaisaWS"]
+        },
+        {
+            "name": "Start Historical Alpha HFT Bot",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["startHistoricalBot"]
+        },
+        {
+            "name": "Start Bot",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["startBot"]
+        },
+        {
+            "name": "Start Bot Order Placing Disabled",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["startBot", "--placeOrdersFlag", "false"]
+        },
+        {
+            "name": "Smart API Store Instrumens and store historical tables with OTP",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["initializeBot", "--smartApiTotp", "947823", "--createTable", "true", "-o", "true", "-i", "NIFTY50"]
+        },
+        {
+            "name": "SmartAPI Store Instruments and store historical tables - NIFTY50",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "NIFTY50"]
+            // "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "ALL-EQ"]
+        },
+        {
+            "name": "SmartAPI Store Subscription Instruments and store historical tables",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "SUBSCRIPTION"]
+        },
+        {
+            "name": "SmartAPI Store Subscription+NIFTY50 Instruments and store historical tables",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "SUBSCRIPTION_NIFTY50"]
+        },
+        {
+            "name": "AngelOne/SmartAPI One Day All Equities",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            // "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "NIFTY50"]
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "ALL-EQ", "-t", "ONE_DAY"]
+        },
+        {
+            "name": "AngelOne/SmartAPI Options Close to the current levels",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            // "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "NIFTY50"]
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "NIFTYOPTNEAR"]
+        },
+        {
+            "name": "AngelOne/SmartAPI Index Options",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            // "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "NIFTY50"]
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "INDEXOPTIONS"]
+        },
+        {
+            "name": "AngelOne/SmartAPI Index Futures",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            // "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "NIFTY50"]
+            "args": ["initializeBot", "-u", "true", "--createTable", "true", "-o", "true", "-i", "INDEXFUTURES"]
+        },
+        {
+            "name": "AngelOne/SmartAPI Commodities and Commodities Futures",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["initializeBot", "-u", "true", "--createTable", "false", "-o", "true", "-i", "COMMODITIESANDFUTURES"]
+        },
+        {
+            "name": "CNBC Quotes",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "main.go",
+            "args": ["cnbcQuotes"]
+        },
+    ]
+}

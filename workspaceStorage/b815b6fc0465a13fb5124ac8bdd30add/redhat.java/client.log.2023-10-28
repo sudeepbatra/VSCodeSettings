@@ -1,0 +1,652 @@
+{
+  message: "Use the JDK from 'PATH' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2023-10-28 15:40:45.462'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.24.0-linux-x64/jre/17.0.8.1-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.24.0-linux-x64/lombok/lombok-1.18.30.jar -jar /home/sb/.vscode/extensions/redhat.java-1.24.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_ss_linux -data /home/sb/.config/Code/User/workspaceStorage/b815b6fc0465a13fb5124ac8bdd30add/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-10-28 15:40:45.537'
+}
+{
+  message: 'Starting Java server with: /home/sb/.vscode/extensions/redhat.java-1.24.0-linux-x64/jre/17.0.8.1-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/sb/.vscode/extensions/redhat.java-1.24.0-linux-x64/lombok/lombok-1.18.30.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/sb/.config/Code/User/workspaceStorage/b815b6fc0465a13fb5124ac8bdd30add/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/sb/.vscode/extensions/redhat.java-1.24.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.500.v20230717-2134.jar -configuration /home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux -data /home/sb/.config/Code/User/workspaceStorage/b815b6fc0465a13fb5124ac8bdd30add/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-10-28 15:40:45.621'
+}
+{
+  message: 'Oct 28, 2023 3:40:46 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-10-28 15:40:46.295'
+}
+{
+  message: 'Oct 28, 2023 3:40:46 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2023-10-28 15:40:46.298'
+}
+{
+  message: '[Warn  - 3:41:05 PM] Oct 28, 2023, 3:41:05 PM Synchronize project zerodha-algo-trading failed due to an error in the referenced Gradle build.\n' +
+    "Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    "org.gradle.tooling.BuildException: Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:43)\n' +
+    '\tat org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:69)\n' +
+    '\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\n' +
+    '\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    '\tat org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter.run(DefaultPhasedBuildActionExecuter.java:63)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter.run(DefaultPhasedBuildActionExecuter.java:31)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runPhasedModelQuery(EclipseModelUtils.java:111)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runTasksAndQueryCompositeModelWithRuntimInfo(EclipseModelUtils.java:86)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runTasksAndQueryModels(EclipseModelUtils.java:60)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.lambda$fetchEclipseProjectAndRunSyncTasks$4(DefaultModelProvider.java:75)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$GradleConnectionOperation.runInToolingApi(DefaultGradleBuild.java:331)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:124)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.lambda$fetchEclipseProjectAndRunSyncTasks$5(DefaultModelProvider.java:75)\n' +
+    '\tat com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)\n' +
+    '\tat com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)\n' +
+    '\tat com.google.common.cache.LocalCache.get(LocalCache.java:3951)\n' +
+    '\tat com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.getFromCache(DefaultModelProvider.java:98)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.executeOperation(DefaultModelProvider.java:90)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.fetchEclipseProjectAndRunSyncTasks(DefaultModelProvider.java:72)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:228)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:194)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:102)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:439)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:327)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:212)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:154)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:116)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:260)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    "Caused by: org.gradle.internal.exceptions.LocationAwareException: Initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/init/init.gradle'\n" +
+    "Could not compile initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/init/init.gradle'.\n" +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:103)\n' +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.collectFailures(DefaultExceptionAnalyser.java:67)\n' +
+    '\tat org.gradle.initialization.exception.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:48)\n' +
+    '\tat org.gradle.initialization.exception.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.finishBuild(DefaultGradleLauncher.java:180)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:143)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)\n' +
+    '\tat org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:180)\n' +
+    '\tat org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)\n' +
+    '\tat org.gradle.tooling.internal.provider.runner.ClientProvidedPhasedActionRunner.run(ClientProvidedPhasedActionRunner.java:60)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)\n' +
+    '\tat org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)\n' +
+    '\tat org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)\n' +
+    '\tat org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)\n' +
+    '\tat org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)\n' +
+    '\tat org.gradle.tooling.i'... 33208 more characters,
+  level: 'info',
+  timestamp: '2023-10-28 15:41:05.439'
+}
+{
+  message: "[Error - 3:41:05 PM] Oct 28, 2023, 3:41:05 PM Can't use Java 21 and Gradle 6.5 to import Gradle project zerodha-algo-trading.\n" +
+    "Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    "org.gradle.tooling.BuildException: Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:43)\n' +
+    '\tat org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:69)\n' +
+    '\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\n' +
+    '\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    '\tat org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter.run(DefaultPhasedBuildActionExecuter.java:63)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter.run(DefaultPhasedBuildActionExecuter.java:31)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runPhasedModelQuery(EclipseModelUtils.java:111)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runTasksAndQueryCompositeModelWithRuntimInfo(EclipseModelUtils.java:86)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runTasksAndQueryModels(EclipseModelUtils.java:60)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.lambda$fetchEclipseProjectAndRunSyncTasks$4(DefaultModelProvider.java:75)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$GradleConnectionOperation.runInToolingApi(DefaultGradleBuild.java:331)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:124)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.lambda$fetchEclipseProjectAndRunSyncTasks$5(DefaultModelProvider.java:75)\n' +
+    '\tat com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)\n' +
+    '\tat com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)\n' +
+    '\tat com.google.common.cache.LocalCache.get(LocalCache.java:3951)\n' +
+    '\tat com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.getFromCache(DefaultModelProvider.java:98)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.executeOperation(DefaultModelProvider.java:90)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.fetchEclipseProjectAndRunSyncTasks(DefaultModelProvider.java:72)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:228)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:194)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:102)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:439)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:327)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:212)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:154)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:116)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:260)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    "Caused by: org.gradle.internal.exceptions.LocationAwareException: Initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/init/init.gradle'\n" +
+    "Could not compile initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/init/init.gradle'.\n" +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:103)\n' +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.collectFailures(DefaultExceptionAnalyser.java:67)\n' +
+    '\tat org.gradle.initialization.exception.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:48)\n' +
+    '\tat org.gradle.initialization.exception.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.finishBuild(DefaultGradleLauncher.java:180)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:143)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:120)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)\n' +
+    '\tat org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:180)\n' +
+    '\tat org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:56)\n' +
+    '\tat org.gradle.tooling.internal.provider.runner.ClientProvidedPhasedActionRunner.run(ClientProvidedPhasedActionRunner.java:60)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)\n' +
+    '\tat org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)\n' +
+    '\tat org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)\n' +
+    '\tat org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)\n' +
+    '\tat org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)\n' +
+    '\tat org.gradle.tooling.internal.provider'... 33192 more characters,
+  level: 'info',
+  timestamp: '2023-10-28 15:41:05.450'
+}
+{
+  message: "[Error - 3:41:05 PM] Oct 28, 2023, 3:41:05 PM Could not fetch model of type 'Map' using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    "Could not fetch model of type 'Map' using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    "org.gradle.tooling.BuildException: Could not fetch model of type 'Map' using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:43)\n' +
+    '\tat org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:69)\n' +
+    '\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\n' +
+    '\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    '\tat org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultModelBuilder.get(DefaultModelBuilder.java:51)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.CompatProjectConnection$CompatModelBuilder.get(CompatProjectConnection.java:272)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupport.lambda$0(GradleBuildSupport.java:146)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$GradleConnectionOperation.runInToolingApi(DefaultGradleBuild.java:331)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:124)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:114)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupport.syncAnnotationProcessingConfiguration(GradleBuildSupport.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleUtils.synchronizeAnnotationProcessingConfiguration(GradleUtils.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:291)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:154)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:116)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:260)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    "Caused by: org.gradle.internal.exceptions.LocationAwareException: Could not open init generic class cache for initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/apt/init.gradle' (/home/sb/.gradle/caches/6.5/scripts/a2thfg2kll8sjyw2m2ltjij2c/init6418c6d726070f323dbddda2aadc82ef).\n" +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:103)\n' +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.collectFailures(DefaultExceptionAnalyser.java:67)\n' +
+    '\tat org.gradle.initialization.exception.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:48)\n' +
+    '\tat org.gradle.initialization.exception.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:30)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.finishBuild(DefaultGradleLauncher.java:180)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:143)\n' +
+    '\tat org.gradle.initialization.DefaultGradleLauncher.getConfiguredBuild(DefaultGradleLauncher.java:114)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:74)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController$1.create(GradleBuildController.java:67)\n' +
+    '\tat org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:180)\n' +
+    '\tat org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:67)\n' +
+    '\tat org.gradle.internal.invocation.GradleBuildController.configure(GradleBuildController.java:61)\n' +
+    '\tat org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:56)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:63)\n' +
+    '\tat org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)\n' +
+    '\tat org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:409)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:399)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:94)\n' +
+    '\tat org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:50)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)\n' +
+    '\tat org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:80)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)\n' +
+    '\tat org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)\n' +
+    '\tat org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:87)\n' +
+    '\tat org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:55)\n' +
+    '\tat org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:60)\n' +
+    '\tat org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:38)\n' +
+    '\tat org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)\n' +
+    '\tat org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)\n' +
+    '\tat org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)\n' +
+    '\tat org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)\n' +
+    '\tat org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)\n' +
+    '\tat org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)\n' +
+    '\tat org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:56)\n' +
+    '\tat org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)\n' +
+    '\tat org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)\n' +
+    '\tat org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)\n' +
+    '\tat org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:68)\n' +
+    '\tat org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:37)\n' +
+    '\tat org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)\n' +
+    '\tat org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:39)\n' +
+    '\tat org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:104)\n' +
+    '\tat org.gradle.launcher.daemon.server.'... 12188 more characters,
+  level: 'info',
+  timestamp: '2023-10-28 15:41:05.565'
+}
+{
+  message: '[Error - 3:41:05 PM] Oct 28, 2023, 3:41:05 PM Error occured while building workspace. Details: \n' +
+    " message: Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-6.5-bin.zip'.\n" +
+    "Initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/init/init.gradle'\n" +
+    "Could not compile initialization script '/home/sb/.config/Code/User/globalStorage/redhat.java/1.24.0/config_linux/org.eclipse.osgi/55/0/.cp/gradle/init/init.gradle'.\n" +
+    'startup failed:\n' +
+    'General error during semantic analysis: Unsupported class file major version 65\n' +
+    'java.lang.IllegalArgumentException: Unsupported class file major version 65\n' +
+    '\tat groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:196)\n' +
+    '\tat groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:177)\n' +
+    '\tat groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:163)\n' +
+    '\tat groovyjarjarasm.asm.ClassReader.<init>(ClassReader.java:284)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.AsmDecompiler.parseClass(AsmDecompiler.java:81)\n' +
+    '\tat org.codehaus.groovy.control.ClassNodeResolver.findDecompiled(ClassNodeResolver.java:251)\n' +
+    '\tat org.codehaus.groovy.control.ClassNodeResolver.tryAsLoaderClassOrScript(ClassNodeResolver.java:189)\n' +
+    '\tat org.codehaus.groovy.control.ClassNodeResolver.findClassNode(ClassNodeResolver.java:169)\n' +
+    '\tat org.codehaus.groovy.control.ClassNodeResolver.resolveName(ClassNodeResolver.java:125)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.AsmReferenceResolver.resolveClassNullable(AsmReferenceResolver.java:57)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.AsmReferenceResolver.resolveClass(AsmReferenceResolver.java:44)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.AsmReferenceResolver.resolveNonArrayType(AsmReferenceResolver.java:79)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.AsmReferenceResolver.resolveType(AsmReferenceResolver.java:70)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.MemberSignatureParser.createMethodNode(MemberSignatureParser.java:57)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.DecompiledClassNode$2.get(DecompiledClassNode.java:234)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.DecompiledClassNode$2.get(DecompiledClassNode.java:231)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.DecompiledClassNode.createMethodNode(DecompiledClassNode.java:242)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.DecompiledClassNode.lazyInitMembers(DecompiledClassNode.java:199)\n' +
+    '\tat org.codehaus.groovy.ast.decompiled.DecompiledClassNode.getDeclaredMethods(DecompiledClassNode.java:122)\n' +
+    '\tat org.codehaus.groovy.ast.ClassNode.getMethods(ClassNode.java:912)\n' +
+    '\tat org.codehaus.groovy.ast.ClassNode.tryFindPossibleMethod(ClassNode.java:1280)\n' +
+    '\tat org.codehaus.groovy.control.StaticImportVisitor.transformMethodCallExpression(StaticImportVisitor.java:252)\n' +
+    '\tat org.codehaus.groovy.control.StaticImportVisitor.transform(StaticImportVisitor.java:113)\n' +
+    '\tat org.codehaus.groovy.ast.ClassCodeExpressionTransformer.visitExpressionStatement(ClassCodeExpressionTransformer.java:142)\n' +
+    '\tat org.codehaus.groovy.ast.stmt.ExpressionStatement.visit(ExpressionStatement.java:40)\n' +
+    '\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClassCodeContainer(ClassCodeVisitorSupport.java:110)\n' +
+    '\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructorOrMethod(ClassCodeVisitorSupport.java:121)\n' +
+    '\tat org.codehaus.groovy.ast.ClassCodeExpressionTransformer.visitConstructorOrMethod(ClassCodeExpressionTransformer.java:53)\n' +
+    '\tat org.codehaus.groovy.control.StaticImportVisitor.visitConstructorOrMethod(StaticImportVisitor.java:89)\n' +
+    '\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitConstructor(ClassCodeVisitorSupport.java:128)\n' +
+    '\tat org.codehaus.groovy.ast.ClassNode.visitContents(ClassNode.java:1099)\n' +
+    '\tat org.codehaus.groovy.ast.ClassCodeVisitorSupport.visitClass(ClassCodeVisitorSupport.java:54)\n' +
+    '\tat org.codehaus.groovy.control.StaticImportVisitor.visitClass(StaticImportVisitor.java:83)\n' +
+    '\tat org.codehaus.groovy.control.CompilationUnit$14.call(CompilationUnit.java:708)\n' +
+    '\tat org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1084)\n' +
+    '\tat org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:640)\n' +
+    '\tat org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:618)\n' +
+    '\tat org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:595)\n' +
+    '\tat groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:401)\n' +
+    '\tat groovy.lang.GroovyClassLoader.access$300(GroovyClassLoader.java:89)\n' +
+    '\tat groovy.lang.GroovyClassLoader$5.provide(GroovyClassLoader.java:341)\n' +
+    '\tat groovy.lang.GroovyClassLoader$5.provide(GroovyClassLoader.java:338)\n' +
+    '\tat org.codehaus.groovy.runtime.memoize.ConcurrentCommonCache.getAndPut(ConcurrentCommonCache.java:147)\n' +
+    '\tat groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:336)\n' +
+    '\tat org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.compileScript(DefaultScriptCompilationHandler.java:141)\n' +
+    '\tat org.gradle.groovy.scripts.internal.DefaultScriptCompilationHandler.compileToDir(DefaultScriptCompilationHandler.java:97)\n' +
+    '\tat org.gradle.groovy.scripts.internal.BuildOperationBackedScriptCompilationHandler$2.run(BuildOperationBackedScriptCompilationHandler.java:54)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:395)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:387)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:84)\n' +
+    '\tat org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)\n' +
+    '\tat org.gradle.groovy.scripts.internal.BuildOperationBackedScriptCompilationHandler.compileToDir(BuildOperationBackedScriptCompilationHandler.java:51)\n' +
+    '\tat org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$CompileToCrossBuildCacheAction.execute(FileCacheBackedScriptClassCompiler.java:190)\n' +
+    '\tat org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$CompileToCrossBuildCacheAction.execute(FileCacheBackedScriptClassCompiler.java:170)\n' +
+    '\tat org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$ProgressReportingInitializer.execute(FileCacheBackedScriptClassCompiler.java:215)\n' +
+    '\tat org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler$ProgressReportingInitializer.execute(FileCacheBackedScriptClassCompiler.java:194)\n' +
+    '\tat org.gradle.cache.internal.DefaultPersistentDirectoryCache$Initializer.initialize(DefaultPersistentDirectoryCache.java:100)\n' +
+    '\tat org.gradle.cache.internal.FixedSharedModeCrossProcessCacheAccess$1.run(FixedSharedModeCrossProcessCacheAccess.java:86)\n' +
+    '\tat org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.doWriteAction(DefaultFileLockManager.java:215)\n' +
+    '\tat org.gradle.cache.internal.DefaultFileLockManager$DefaultFileLock.writeFile(DefaultFileLockManager.java:205)\n' +
+    '\tat org.gradle.cache.internal.FixedSharedModeCrossProcessCacheAccess.open(FixedSharedModeCrossProcessCacheAccess.java:83)\n' +
+    '\tat org.gradle.cache.internal.DefaultCacheAccess.open(DefaultCacheAccess.java:139)\n' +
+    '\tat org.gradle.cache.internal.DefaultPersistentDirectoryStore.open(DefaultPersistentDirectoryStore.java:78)\n' +
+    '\tat org.gradle.cache.internal.DefaultPersistentDirectoryStore.open(DefaultPersistentDirectoryStore.java:42)\n' +
+    '\tat org.gradle.cache.internal.DefaultCacheFactory.doOpen(DefaultCacheFactory.java:95)\n' +
+    '\tat org.gradle.cache.internal.DefaultCacheFactory.open(DefaultCacheFactory.java:68)\n' +
+    '\tat org.gradle.cache.internal.DefaultCacheRepository$PersistentCacheBuilder.open(DefaultCacheRepository.java:126)\n' +
+    '\tat org.gradle.groovy.scripts.internal.FileCacheBackedScriptClassCompiler.compile(FileCacheBackedScriptClassCompiler.java:111)\n' +
+    '\tat org.gradle.groovy.scripts.internal.CrossBuildInMemoryCachingScriptClassCache.getOrCompile(CrossBuildInMemoryCachingScriptClassCache.java:50)\n' +
+    '\tat org.gradle.groovy.scripts.internal.BuildScopeInMemoryCachingScriptClassCompiler.compile(BuildScopeInMemoryCachingScriptClassCompiler.java:50)\n' +
+    '\tat org.gradle.groovy.scripts.DefaultScriptCompilerFactory$ScriptCompilerImpl.compile(DefaultScriptCompilerFactory.java:49)\n' +
+    '\tat org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:125)\n' +
+    '\tat org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:395)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:387)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:242)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:150)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:84)\n' +
+    '\tat org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)\n' +
+    '\tat org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)\n' +
+    '\tat org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)\n' +
+    '\tat org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:49)\n' +
+    '\tat org.gradle.configuration.BuildOperationScriptPlugin.apply(Bui'... 10899 more characters,
+  level: 'info',
+  timestamp: '2023-10-28 15:41:05.750'
+}
+{
+  message: 'Oct 28, 2023 3:41:17 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2023-10-28 15:41:17.338'
+}
+{
+  message: '[Warn  - 3:43:05 PM] Oct 28, 2023, 3:43:05 PM Synchronize project zerodha-algo-trading failed due to an error connecting to the Gradle build.\n' +
+    'The supplied phased action failed with an exception.\n' +
+    'org.gradle.tooling.BuildActionFailureException: The supplied phased action failed with an exception.\n' +
+    '\tat org.gradle.tooling.internal.consumer.connection.PhasedActionAwareConsumerConnection.run(PhasedActionAwareConsumerConnection.java:58)\n' +
+    '\tat org.gradle.tooling.internal.consumer.connection.ParameterValidatingConsumerConnection.run(ParameterValidatingConsumerConnection.java:62)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter$1.run(DefaultPhasedBuildActionExecuter.java:78)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter$1.run(DefaultPhasedBuildActionExecuter.java:70)\n' +
+    '\tat org.gradle.tooling.internal.consumer.connection.LazyConsumerActionExecutor.run(LazyConsumerActionExecutor.java:143)\n' +
+    '\tat org.gradle.tooling.internal.consumer.connection.CancellableConsumerActionExecutor.run(CancellableConsumerActionExecutor.java:45)\n' +
+    '\tat org.gradle.tooling.internal.consumer.connection.ProgressLoggingConsumerActionExecutor.run(ProgressLoggingConsumerActionExecutor.java:61)\n' +
+    '\tat org.gradle.tooling.internal.consumer.connection.RethrowingErrorsConsumerActionExecutor.run(RethrowingErrorsConsumerActionExecutor.java:38)\n' +
+    '\tat org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:67)\n' +
+    '\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\n' +
+    '\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    '\tat org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter.run(DefaultPhasedBuildActionExecuter.java:63)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultPhasedBuildActionExecuter.run(DefaultPhasedBuildActionExecuter.java:31)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runPhasedModelQuery(EclipseModelUtils.java:111)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runTasksAndQueryCompositeModelWithRuntimInfo(EclipseModelUtils.java:86)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.EclipseModelUtils.runTasksAndQueryModels(EclipseModelUtils.java:60)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.lambda$fetchEclipseProjectAndRunSyncTasks$4(DefaultModelProvider.java:75)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$GradleConnectionOperation.runInToolingApi(DefaultGradleBuild.java:331)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:124)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.lambda$fetchEclipseProjectAndRunSyncTasks$5(DefaultModelProvider.java:75)\n' +
+    '\tat com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4853)\n' +
+    '\tat com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)\n' +
+    '\tat com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)\n' +
+    '\tat com.google.common.cache.LocalCache.get(LocalCache.java:3951)\n' +
+    '\tat com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4848)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.getFromCache(DefaultModelProvider.java:98)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.executeOperation(DefaultModelProvider.java:90)\n' +
+    '\tat org.eclipse.buildship.core.internal.workspace.DefaultModelProvider.fetchEclipseProjectAndRunSyncTasks(DefaultModelProvider.java:72)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:228)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:194)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:102)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:439)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:327)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:212)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:154)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager$1.runInWorkspace(ProjectsManager.java:200)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    "Caused by: org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'kitecon'.\n" +
+    '\tat org.gradle.configuration.project.LifecycleProjectEvaluator.wrapException(LifecycleProjectEvaluator.java:84)\n' +
+    '\tat org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:77)\n' +
+    '\tat org.gradle.configuration.project.LifecycleProjectEvaluator.access$400(LifecycleProjectEvaluator.java:55)\n' +
+    '\tat org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.lambda$run$0(LifecycleProjectEvaluator.java:111)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.lambda$applyToMutableState$0(DefaultProjectStateRegistry.java:360)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.lambda$withProjectLock$2(DefaultProjectStateRegistry.java:408)\n' +
+    '\tat org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:270)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.withProjectLock(DefaultProjectStateRegistry.java:408)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.fromMutableState(DefaultProjectStateRegistry.java:389)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.applyToMutableState(DefaultProjectStateRegistry.java:359)\n' +
+    '\tat org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:100)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:68)\n' +
+    '\tat org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:72)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:760)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:151)\n' +
+    '\tat org.gradle.api.internal.project.DefaultProjectStateRegistry$ProjectStateImpl.ensureConfigured(DefaultProjectStateRegistry.java:328)\n' +
+    '\tat org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:33)\n' +
+    '\tat org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:47)\n' +
+    '\tat org.gradle.configuration.DefaultProjectsPreparer.prepareProjects(DefaultProjectsPreparer.java:50)\n' +
+    '\tat org.gradle.configuration.BuildTreePreparingProjectsPreparer.prepareProjects(BuildTreePreparingProjectsPreparer.java:64)\n' +
+    '\tat org.gradle.configuration.BuildOperationFiringProjectsPreparer$ConfigureBuild.run(BuildOperationFiringProjectsPreparer.java:52)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)\n' +
+    '\tat org.gradle.i'... 36707 more characters,
+  level: 'info',
+  timestamp: '2023-10-28 15:43:05.914'
+}
+{
+  message: "[Error - 3:43:06 PM] Oct 28, 2023, 3:43:06 PM Could not fetch model of type 'Map' using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-7.4.2-bin.zip'.\n" +
+    "Could not fetch model of type 'Map' using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-7.4.2-bin.zip'.\n" +
+    "org.gradle.tooling.BuildException: Could not fetch model of type 'Map' using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-7.4.2-bin.zip'.\n" +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:51)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ExceptionTransformer.transform(ExceptionTransformer.java:29)\n' +
+    '\tat org.gradle.tooling.internal.consumer.ResultHandlerAdapter.onFailure(ResultHandlerAdapter.java:43)\n' +
+    '\tat org.gradle.tooling.internal.consumer.async.DefaultAsyncConsumerActionExecutor$1$1.run(DefaultAsyncConsumerActionExecutor.java:69)\n' +
+    '\tat org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)\n' +
+    '\tat org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\n' +
+    '\tat java.base/java.lang.Thread.run(Unknown Source)\n' +
+    '\tat org.gradle.tooling.internal.consumer.BlockingResultHandler.getResult(BlockingResultHandler.java:46)\n' +
+    '\tat org.gradle.tooling.internal.consumer.DefaultModelBuilder.get(DefaultModelBuilder.java:51)\n' +
+    '\tat org.eclipse.buildship.core.internal.util.gradle.CompatProjectConnection$CompatModelBuilder.get(CompatProjectConnection.java:272)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupport.lambda$0(GradleBuildSupport.java:146)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild$GradleConnectionOperation.runInToolingApi(DefaultGradleBuild.java:331)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)\n' +
+    '\tat org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:124)\n' +
+    '\tat org.eclipse.buildship.core.internal.DefaultGradleBuild.withConnection(DefaultGradleBuild.java:114)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleBuildSupport.syncAnnotationProcessingConfiguration(GradleBuildSupport.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleUtils.synchronizeAnnotationProcessingConfiguration(GradleUtils.java:301)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:291)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:154)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager$1.runInWorkspace(ProjectsManager.java:200)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    "Caused by: org.gradle.internal.exceptions.LocationAwareException: Build file '/home/sb/StoxAlpha/zerodha-algo-trading/build.gradle' line: 34\n" +
+    "A problem occurred evaluating root project 'kitecon'.\n" +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.transform(DefaultExceptionAnalyser.java:103)\n' +
+    '\tat org.gradle.initialization.exception.DefaultExceptionAnalyser.collectFailures(DefaultExceptionAnalyser.java:55)\n' +
+    '\tat org.gradle.initialization.exception.MultipleBuildFailuresExceptionAnalyser.transform(MultipleBuildFailuresExceptionAnalyser.java:55)\n' +
+    '\tat org.gradle.initialization.exception.StackTraceSanitizingExceptionAnalyser.transform(StackTraceSanitizingExceptionAnalyser.java:39)\n' +
+    '\tat org.gradle.internal.buildtree.DefaultBuildTreeFinishExecutor.finishBuildTree(DefaultBuildTreeFinishExecutor.java:54)\n' +
+    '\tat org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.lambda$runBuild$4(DefaultBuildTreeLifecycleController.java:111)\n' +
+    '\tat org.gradle.internal.model.StateTransitionController.lambda$transition$6(StateTransitionController.java:166)\n' +
+    '\tat org.gradle.internal.model.StateTransitionController.doTransition(StateTransitionController.java:238)\n' +
+    '\tat org.gradle.internal.model.StateTransitionController.lambda$transition$7(StateTransitionController.java:166)\n' +
+    '\tat org.gradle.internal.work.DefaultSynchronizer.withLock(DefaultSynchronizer.java:44)\n' +
+    '\tat org.gradle.internal.model.StateTransitionController.transition(StateTransitionController.java:166)\n' +
+    '\tat org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.runBuild(DefaultBuildTreeLifecycleController.java:103)\n' +
+    '\tat org.gradle.internal.buildtree.DefaultBuildTreeLifecycleController.fromBuildModel(DefaultBuildTreeLifecycleController.java:74)\n' +
+    '\tat org.gradle.tooling.internal.provider.runner.BuildModelActionRunner.run(BuildModelActionRunner.java:49)\n' +
+    '\tat org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)\n' +
+    '\tat org.gradle.internal.buildtree.ProblemReportingBuildActionRunner.run(ProblemReportingBuildActionRunner.java:49)\n' +
+    '\tat org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:69)\n' +
+    '\tat org.gradle.tooling.internal.provider.FileSystemWatchingBuildActionRunner.run(FileSystemWatchingBuildActionRunner.java:119)\n' +
+    '\tat org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:41)\n' +
+    '\tat org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.lambda$execute$0(RootBuildLifecycleBuildActionExecutor.java:40)\n' +
+    '\tat org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:128)\n' +
+    '\tat org.gradle.launcher.exec.RootBuildLifecycleBuildActionExecutor.execute(RootBuildLifecycleBuildActionExecutor.java:40)\n' +
+    '\tat org.gradle.internal.buildtree.DefaultBuildTreeContext.execute(DefaultBuildTreeContext.java:40)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.lambda$execute$0(BuildTreeLifecycleBuildActionExecutor.java:65)\n' +
+    '\tat org.gradle.internal.buildtree.BuildTreeState.run(BuildTreeState.java:53)\n' +
+    '\tat org.gradle.launcher.exec.BuildTreeLifecycleBuildActionExecutor.execute(BuildTreeLifecycleBuildActionExecutor.java:65)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuildOperationBuildActionExecutor.java:61)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor$3.call(RunAsBuildOperationBuildActionExecutor.java:57)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)\n' +
+    '\tat org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)\n' +
+    '\tat org.gradle.launcher.exec.RunAsBuildOperationBuildActionExecutor.execute(RunAsBuildOperationBuildActionExecutor.java:57)\n' +
+    '\tat org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.lambda$execute$0(RunAsWorkerThreadBuildActionExecutor.java:36)\n' +
+    '\tat org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:270)\n' +
+    '\tat org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:119)\n' +
+    '\tat org.gradle.launcher.exec.RunAsWorkerThreadBuildActionExecutor.execute(RunAsWorkerThreadBuildActionExecutor.java:36)\n' +
+    '\tat org.gradle.tooling.internal.provider.ContinuousBuildActionExecutor.execute(ContinuousBuildActionExecutor.java:103)\n' +
+    '\tat org.gradle.tooling.internal.provider.SubscribableBuildActionExecutor.execute(SubscribableBuildActionExecutor.java:64)\n' +
+    '\tat org.gradle.internal.session.DefaultBuildSessionContext.execute(DefaultBuildSessionContext.java:46)\n' +
+    '\tat org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter$ActionImpl.apply(BuildSessionLifecycleBuildActionExecuter.java:100)\n' +
+    '\tat org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter$ActionImpl.apply(BuildSessionLifecycleBuildActionExecuter.java:88)\n' +
+    '\tat org.gradle.internal.session.BuildSessionState.run(BuildSessionState.java:69)\n' +
+    '\tat org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter.execute(BuildSessionLifecycleBuildActionExecuter.java:62)\n' +
+    '\tat org.gradle.tooling.internal.provider.BuildSessionLifecycleBuildActionExecuter.execute(BuildSessionLifecycleBuildActionExecuter.java:41)\n' +
+    '\tat org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:63)\n' +
+    '\tat org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)\n' +
+    '\tat org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:58)\n' +
+    '\tat org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)\n' +
+    '\tat org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:47)\n' +
+    '\tat org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:31)\n' +
+    '\t'... 14634 more characters,
+  level: 'info',
+  timestamp: '2023-10-28 15:43:06.227'
+}
+{
+  message: '[Error - 3:43:06 PM] Oct 28, 2023, 3:43:06 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'zerodha-algo-trading does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): zerodha-algo-trading does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)\n' +
+    '\tat org.eclipse.jdt.launching.JavaRuntime.getVMInstall(JavaRuntime.java:422)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.commands.ProjectCommand.getProjectSettings(ProjectCommand.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:93)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:616)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2023-10-28 15:43:06.235'
+}
+{
+  message: '[Error - 3:43:06 PM] Oct 28, 2023, 3:43:06 PM Error in calling delegate command handler\n' +
+    'zerodha-algo-trading does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): zerodha-algo-trading does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)\n' +
+    '\tat org.eclipse.jdt.launching.JavaRuntime.getVMInstall(JavaRuntime.java:422)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.commands.ProjectCommand.getProjectSettings(ProjectCommand.java:102)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:93)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:616)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)\n',
+  level: 'info',
+  timestamp: '2023-10-28 15:43:06.236'
+}
